@@ -33,5 +33,5 @@ LightRAG/lightrag_cache_*/
 inputs/
 test_data/
 
-# LightRAG作为独立仓库处理
-LightRAG/ 
+# LightRAG作为独立仓库处理，但允许提交修改
+# LightRAG/ 
