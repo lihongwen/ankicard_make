@@ -1,0 +1,37 @@
+# 系统与IDE文件
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python虚拟环境
+venv/
+LightRAG/venv/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 日志文件
+*.log
+lightrag.log
+
+# 个人配置文件
+.env.apikey
+
+# 缓存与数据目录
+__pycache__/
+.pytest_cache/
+LightRAG/lightrag_cache_*/
+
+# 数据文件夹
+inputs/
+test_data/
+
+# LightRAG作为独立仓库处理
+LightRAG/ 

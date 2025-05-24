@@ -1,0 +1,10 @@
+version: '3'
+services:
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - "16333:6333"
+      - "16334:6334"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+    restart: always 
